@@ -1,0 +1,2 @@
+﻿sfml-main-d.lib(SFML_Main.cpp.obj) : warning LNK4099: PDB 'sfml-main-d.pdb' was not found with 'sfml-main-d.lib(SFML_Main.cpp.obj)' or at 'C:\Users\kieren\documents\visual studio 2013\Projects\Stellar\Debug\sfml-main-d.pdb'; linking object as if no debug info
+  Stellar.vcxproj -> C:\Users\kieren\documents\visual studio 2013\Projects\Stellar\Debug\Stellar.exe
