@@ -9,6 +9,6 @@ public:
 	float mPx, mPy;			//Position x and y
 	float mVx, mVy;			//Velocity x and y
 	
-	virtual void Update(float pDelta);		//Delta is  time since last frame	
+	virtual void Update(float pDelta);		//Delta is seconds since last frame	
 };
 
