@@ -1,12 +1,13 @@
 #pragma once
 #include "DrawableEntity.h"
 
-template <typename T>
+
 class GenWeapon :
 	public DrawableEntity
 {
 public:
 	GenWeapon();
+	template <typename T>
 	GenWeapon(T const& pDamage, T const& pProjectileSpeed);
 	~GenWeapon();
 
@@ -14,6 +15,7 @@ public:
 	float mProjectileSpeed;
 	float mDirection;
 
+	template <typename T>
 	void SetParam(T const& pDamage, T const& pProjectileSpeed);
 	virtual void Fire();
 	float* CalculateVelocities();
