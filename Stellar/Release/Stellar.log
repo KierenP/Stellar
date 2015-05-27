@@ -1,0 +1,16 @@
+﻿  Entity.cpp
+  GenShip.cpp
+GenShip.cpp(14): error C2988: unrecognizable template declaration/definition
+GenShip.cpp(14): error C2059: syntax error : '<'
+GenShip.cpp(20): error C2039: 'SetParam' : is not a member of '`global namespace''
+GenShip.cpp(21): error C2143: syntax error : missing ';' before '{'
+GenShip.cpp(21): error C2447: '{' : missing function header (old-style formal list?)
+  GenWeapon.cpp
+GenWeapon.cpp(15): error C2988: unrecognizable template declaration/definition
+GenWeapon.cpp(15): error C2059: syntax error : '<'
+GenWeapon.cpp(22): error C2039: 'SetParam' : is not a member of '`global namespace''
+GenWeapon.cpp(23): error C2143: syntax error : missing ';' before '{'
+GenWeapon.cpp(23): error C2447: '{' : missing function header (old-style formal list?)
+GenWeapon.cpp(33): error C2065: 'velocities' : undeclared identifier
+GenWeapon.cpp(34): error C2065: 'velocities' : undeclared identifier
+GenWeapon.cpp(36): error C2065: 'velocities' : undeclared identifier
