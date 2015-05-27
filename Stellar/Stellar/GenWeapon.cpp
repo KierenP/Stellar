@@ -28,12 +28,12 @@ void GenWeapon<T>::SetParam(T const& pDamage, T const& pProjectileSpeed)
 
 float* GenWeapon::CalculateVelocities()
 {
-	float velocities[2];											
+	float velocity[2];											
 
-	velocities[0] = mProjectileSpeed * cos(mDirection + 90);
-	velocities[1] = -(mProjectileSpeed * sin(mDirection + 90));
+	velocity[0] = mProjectileSpeed * cos(mDirection + 90);
+	velocity[1] = -(mProjectileSpeed * sin(mDirection + 90));
 
-	return velocities;
+	return velocity;
 
 	
 }
