@@ -18,21 +18,18 @@
     <ClInclude Include="Entity.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="DrawableEntity.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="GenShip.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="GenWeapon.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="DrawableSpriteEntity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Entity.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="DrawableEntity.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="main.cpp">
@@ -42,6 +39,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="GenWeapon.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawableSpriteEntity.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

@@ -86,13 +86,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="DrawableEntity.h" />
+    <ClInclude Include="DrawableSpriteEntity.h" />
     <ClInclude Include="Entity.h" />
     <ClInclude Include="GenShip.h" />
     <ClInclude Include="GenWeapon.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="DrawableEntity.cpp" />
+    <ClCompile Include="DrawableSpriteEntity.cpp" />
     <ClCompile Include="Entity.cpp" />
     <ClCompile Include="GenShip.cpp" />
     <ClCompile Include="GenWeapon.cpp" />
