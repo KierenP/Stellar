@@ -3,18 +3,19 @@
 
 void PollEvent();
 void Render();
-void Update();
+void Update(float pDeltaTime);
 
 sf::RenderWindow window(sf::VideoMode(1920, 1080), "Stellar");
 
 GenShip MyShip;
 sf::Texture ShipTexture;
 
+sf::Clock GameClock;
+float DeltaTime = 0;
+
 int main()
 {
-	MyShip.SetParam(0, 1, 10, 100, 100, 0, 0);
-	MyShip.Targetx = 200;
-	MyShip.Targety = 150;
+	MyShip.SetParam(1, 360, 100, 100, 0, 0);
 
 	ShipTexture.loadFromFile("Scout.png");
 	MyShip.DrawObj = *(new sf::Sprite(ShipTexture));
@@ -23,9 +24,10 @@ int main()
 
 	while (window.isOpen())
 	{
+		DeltaTime = GameClock.restart().asSeconds();
 		PollEvent();
 		Render();
-		Update();
+		Update(DeltaTime);
 	}
 }
 
@@ -38,15 +40,14 @@ void PollEvent()
 			window.close();
 		if (sf::Mouse::isButtonPressed(sf::Mouse::Left))
 		{
-			MyShip.Targetx = sf::Mouse::getPosition().x;
-			MyShip.Targety = sf::Mouse::getPosition().y;
+			MyShip.SetTarget(sf::Mouse::getPosition().x, sf::Mouse::getPosition().y);
 		}
 	}
 }
 
-void Update()
+void Update(float pDeltaTime)
 {
-	MyShip.Update();
+	MyShip.Update(pDeltaTime);
 }
 
 void Render()

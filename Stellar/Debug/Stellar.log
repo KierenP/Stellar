@@ -1,6 +1,13 @@
 ﻿  GenShip.cpp
-c:\users\kieren\documents\visual studio 2013\projects\stellar\stellar\genship.cpp(31): warning C4244: '-=' : conversion from 'double' to 'float', possible loss of data
-c:\users\kieren\documents\visual studio 2013\projects\stellar\stellar\genship.cpp(32): warning C4244: '-=' : conversion from 'double' to 'float', possible loss of data
-c:\users\kieren\documents\visual studio 2013\projects\stellar\stellar\genship.cpp(54): warning C4305: 'argument' : truncation from 'double' to 'float'
-c:\users\kieren\documents\visual studio 2013\projects\stellar\stellar\genship.cpp(62): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
-  Stellar.vcxproj -> C:\Users\kieren\Documents\Visual Studio 2013\Projects\Stellar\Debug\Stellar.exe
+c:\users\kieren\documents\visual studio 2013\projects\stellar\stellar\genship.cpp(32): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+c:\users\kieren\documents\visual studio 2013\projects\stellar\stellar\genship.cpp(33): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+c:\users\kieren\documents\visual studio 2013\projects\stellar\stellar\genship.cpp(68): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+c:\users\kieren\documents\visual studio 2013\projects\stellar\stellar\genship.cpp(72): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+  Generating Code...
+  Compiling...
+  main.cpp
+c:\users\kieren\documents\visual studio 2013\projects\stellar\stellar\main.cpp(23): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+c:\users\kieren\documents\visual studio 2013\projects\stellar\stellar\main.cpp(43): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+  Generating Code...
+sfml-main-d.lib(SFML_Main.cpp.obj) : warning LNK4099: PDB 'sfml-main-d.pdb' was not found with 'sfml-main-d.lib(SFML_Main.cpp.obj)' or at 'C:\Users\kieren\documents\visual studio 2013\Projects\Stellar\Debug\sfml-main-d.pdb'; linking object as if no debug info
+  Stellar.vcxproj -> C:\Users\kieren\documents\visual studio 2013\Projects\Stellar\Debug\Stellar.exe
